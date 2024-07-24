@@ -3,6 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RewardValueTests {
     @Test
     void create_with_cash_value() {
+
         double cash = 100;
         RewardValue rewardValue = new RewardValue(cash);
         assertEquals(cash, rewardValue.getCashValue());
